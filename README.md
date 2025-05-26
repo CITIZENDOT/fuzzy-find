@@ -2,8 +2,6 @@
 
 This Chrome extension helps you to fuzzy search in the web page. Meaning, it can find the text you are looking for even if you don't know the exact spelling. Also supports regex search.
 
-![Demo](./demo.mp4)
-
 Here's the demo, me trying to search for "encyclopedia", but typing "ecyclopedia". Matches include "encyclopedia", "encyclopedias".
 
 ## ✨ Features
