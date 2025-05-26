@@ -1,0 +1,17 @@
+/* Base highlight for all matches */
+.found-item {
+  color: black !important;
+  background-color: #f7d75a !important;
+  padding: 0 1px !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Active highlight for the currently focused match */
+.found-item-active {
+  color: white !important;
+  background-color: #ff9632 !important;
+  box-shadow:
+    0 0 0 2px #ff9632,
+    0 0 0 4px rgba(255, 150, 50, 0.5) !important;
+}

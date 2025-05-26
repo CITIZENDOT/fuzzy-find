@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Fuzzy Find
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Chrome extension helps you to fuzzy search in the web page. Meaning, it can find the text you are looking for even if you don't know the exact spelling. Also supports regex search.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fuzzy Find goes beyond basic string matching to provide a more intuitive and powerful search experience:
 
-## Expanding the ESLint configuration
+- **Intelligent Fuzzy Search:** Find matches even with typos, misspellings, or slight variations. Eg: Searching for "recive" will highlight "receive".
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Whole Word Highlighting:** Unlike some fuzzy search tools that highlight only the matched characters, Fuzzy Find intelligently highlights the entire word that contains your fuzzy match, making results clear and easy to spot.
 
-- Configure the top-level `parserOptions` property like this:
+- **Adjustable Fuzziness:** You can control the fuzziness level through the slider in the Popup.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Regex Search:** Just toggle the Regex switch. (This would disable fuzzy search).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 💡 Usage
+
+- Either click the extension icon in the browser toolbar or use the shortcut `Ctrl+Shift+F` (or `Cmd+Shift+F` on Mac) to open the search popup.
+
+## Known Issues
+
+- Some text is not visible for various reasons such as: display is set to none (or) It's in the DOM but is present in a Modal that is conditionally open, it's color is set to `transparent` etc.. Those text are also counted towards the total matches. and tried to be highlighted.
+- If query has spaces, Fuzzy search results will be unexpected. Although, regex search will work as expected.
+
+If you find any other issues, please report them in the [issues](https://github.com/CITIZENDOT/fuzzy-find/issues) section.
