@@ -4,9 +4,17 @@ This Chrome extension helps you to fuzzy search in the web page. Meaning, it can
 
 Here's the demo of me trying to search for "encyclopedia", but typing "ecyclopedia". Matches include "encyclopedia", "encyclopedias".
 
-
 https://github.com/user-attachments/assets/c621b90d-bf7b-4421-9cbd-b22684372e63
 
+## How to Install
+
+Extension publishing is in progress. Until then, you can follow this process:
+
+- Download the [dist.zip](https://github.com/CITIZENDOT/fuzzy-find/releases/download/v1.0.0/dist.zip) from the releases.
+- Unzip the file.
+- Go to `chrome://extensions/` in your Chrome browser.
+- Enable "Developer mode" in the top right corner, if not already enabled.
+- Click on "Load unpacked" and select the unzipped folder.
 
 ## ✨ Features
 
@@ -22,7 +30,7 @@ Fuzzy Find goes beyond basic string matching to provide a more intuitive and pow
 
 ## 💡 Usage
 
-- Either click the extension icon in the browser toolbar or use the shortcut `Ctrl+Shift+F` (or `Cmd+Shift+F` on Mac) to open the search popup.
+- Either click the extension icon in the browser toolbar or use the shortcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> (or <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> on Mac) to open the search popup.
 
 ## Known Issues
 
