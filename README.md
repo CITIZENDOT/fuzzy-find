@@ -8,13 +8,7 @@ https://github.com/user-attachments/assets/c621b90d-bf7b-4421-9cbd-b22684372e63
 
 ## How to Install
 
-Extension publishing is in progress. Until then, you can follow this process:
-
-- Download the [dist.zip](https://github.com/CITIZENDOT/fuzzy-find/releases/download/v1.0.0/dist.zip) from the releases.
-- Unzip the file.
-- Go to `chrome://extensions/` in your Chrome browser.
-- Enable "Developer mode" in the top right corner, if not already enabled.
-- Click on "Load unpacked" and select the unzipped folder.
+Add the extension from the Chrome webstore: https://chromewebstore.google.com/detail/fuzzy-find/nafgnfmmicbilnbccpbophlegklgoaci
 
 ## ✨ Features
 
